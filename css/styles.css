@@ -444,12 +444,8 @@ img {
         width: 496px;
         max-width: 496px;
         font-size: 56px;
-        margin-bottom: 36px;
+        margin-bottom: 0;
     }    
-
-    .hero-banner-button {
-        bottom: 112px;
-    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -476,7 +472,7 @@ img {
     }
 
      .hero-banner-text {
-        margin-bottom: 48px;
+        margin-bottom: 0;
     }    
 }
 
@@ -872,8 +868,7 @@ img {
 .footer-socials-list {
     display: flex;
     justify-content: center;
-    gap: 16px;
-    row-gap: 72px;
+    gap: 16px; 
 }
 
 .footer-socials-item {
@@ -881,7 +876,6 @@ img {
     height: 40px;
     display: flex;
     justify-content: center;
-    gap: 16px;
 }
 
 .footer-socials-a {
@@ -1031,7 +1025,11 @@ img {
    }
 
    .footer-form-container {
-        margin-left: 59px;
+        margin-left: 80px;
+   }
+   
+   .footer-for-adaptation {
+        gap: 0;
    }
 }
 
